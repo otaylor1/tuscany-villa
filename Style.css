@@ -1,1 +1,60 @@
-﻿
+﻿h2{
+    font-size: 20px;
+}
+.jumbotron1{
+    height:400px;
+    background-image: url('tuscany villas.jpg');
+    background-size:cover;
+    background-position: center center;
+}
+
+.thumbnail{
+    height:400px;
+    background-image: url('tuscanymap.jpg');
+    background-size:cover;
+    background-position: center center;
+}
+
+.thumbnail1{
+    height:200px;
+    
+}
+.thumbnail2 {
+    height: 200px;
+    background-image: url('wine 1.jpg');
+    background-size: cover;
+    background-position: center center;
+}
+
+}.thumbnail3{
+    height:200px;
+    background-image: url('Villa.jpg');
+    background-size:cover;
+    background-position: center center;
+}
+ .thumbnail4 {
+    height:200px;
+    background-image: url('wine.jpg');
+    background-size:cover;
+    background-position: center center;
+}
+  .thumbnail5 {
+    height:200px;
+    background-image: url('tuscany villa 4.jpg');
+    background-size:cover;
+    background-position: center center;
+}
+   .thumbnail6 {
+    height:200px;
+   
+}
+    .thumbnail7 {
+    height:200px;
+    background-image: url('tuscany-villas 5.jpg');
+    background-size:cover;
+    background-position: center center;
+}
+     .thumbnail8 {
+    height:200px;
+    
+}
