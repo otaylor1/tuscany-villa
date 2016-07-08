@@ -40,7 +40,8 @@ h2{
     background-image: url('wine 1.jpg');
     background-size: cover;
     background-position: center center;
-    padding-left:50px;  
+    padding-left:50px; 
+    
 }
 
 .thumbnail3 {
@@ -69,8 +70,9 @@ h2{
 
 .thumbnail6 {
     height:200px;
-    padding-left:50px;
-    /*text-align:center;*/
+    padding-left:30px;
+    padding-right:30px;
+    text-align:center;
 }
 
 .thumbnail7 {
@@ -82,13 +84,18 @@ h2{
 }
 
 .thumbnail8 {
-    height:200px;
-    padding-left:50px;
+    height:200px;  
+    padding-left:30px;
+    padding-right:30px;
+    text-align:center;
+    
 }
 
 .thumbnail9 {
     height:200px;
-  padding-left:50px;
+  padding-left:30px;
+    padding-right:30px;
+    text-align:center;
 }
 
 .thumbnail10 {
@@ -101,13 +108,31 @@ h2{
 
 .thumbnail11 {
     height:200px;
-    background-image: url('tuscan villa.jpg');
+    background-color:#0094ff;
     background-size:cover;
     background-position: center center;
-    padding-left:50px;
+    text-align:center;
+     padding-left:30px;
+    padding-right:30px;
+    text-align:center;
+    border:solid;
+   
+
 }
 
  .thumbnail12 {
     height:200px;
     padding-left:50px;  
+    border-top:solid;
 }
+ .box{
+     background-color:#645b5b;
+     
+    
+     color:#ffffff;
+     text-align:center;
+    margin-right:25px;
+    margin-top: 60px;
+    
+     
+ }
