@@ -12,16 +12,15 @@ h2{
 }
 .jumbotron1{
     height:400px;
-    background-image: url('tuscany villas.jpg');
+    background-image: url('windows 1.jpg');
     background-size:cover;
     background-position: center center;
 }
 
 .thumbnail{
 
-        background-image: url('http://www.windowsontuscany.com/wp-content/uploads/2013/09/Volterra.jpg');
+    background-image: url('http://www.windowsontuscany.com/wp-content/uploads/2013/09/Volterra.jpg');
     height:400px;
-    /*background-image: url( http://www.windowsontuscany.com/wp-content/uploads/2013/09/Valdarno.jpg&quot);*/
     background-size:cover;
     background-position: center center;
     margin-bottom:0;   
@@ -34,7 +33,7 @@ h2{
 }
 
 .thumbnail1 p{
-     color:#0094ff;
+     color:#69CFBF;
 }
 
 .thumbnail2 {
@@ -79,7 +78,7 @@ h2{
 
 .thumbnail7 {
     height:200px;
-    background-image: url('tuscany-villas 5.jpg');
+    background-image: url('window 2.jpg');
     background-size:cover;
     background-position: center center;
     padding-left:50px;
@@ -110,14 +109,14 @@ h2{
 
 .thumbnail11 {
     height:200px;
-    background-color:#0094ff;
+    background-color:#69CFBF;
     background-size:cover;
     background-position: center center;
     text-align:center;
      padding-left:30px;
     padding-right:30px;
     text-align:center;
-    border:solid;
+    
    
 
 }
@@ -127,10 +126,56 @@ h2{
     padding-left:50px;  
     border-top:solid;
 }
+
+ .border{
+    margin-top:10px;
+    padding-bottom:5px;  
+     border:solid;
+     border-color:rgba(100, 91, 91, 0.79);
+
+     
+ }
  .box{
      background-color:rgba(100, 91, 91, 0.79); 
      color:#ffffff;
      text-align:center;
     margin-right:25px;
     margin-top: 60px;
+    padding:1px;
+ }
+ button{
+     color:#69CFBF;
+     border-color:#69CFBF;
+     background-color:rgba(255, 255, 255, 0.00);
+     border-style:solid;
+ }
+#button2 {
+    color: #444444;
+    border-color: rgba(100, 91, 91, 0.79);
+    background-color: rgba(255, 255, 255, 0.00);
+    border-style: solid;
+    padding: 3px;
+}
+ #clients{
+     font-size:12px;
+     color:#ffffff;
+     margin:0px;
+ }
+ #number{
+     font-size:30px;
+    color: #ffffff;
+    font-weight:bold;
+    margin:0px;
+ }
+ #review{
+      font-size:12px;
+      font-weight:bold;
+    color: #ffffff;
+   margin:0px;
+ }
+ #rating{
+       font-size:30px;
+    color: #ffffff;
+    font-weight:bold;
+   margin:0px;
  }
