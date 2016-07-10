@@ -1,39 +1,97 @@
-﻿body{
-    font-family:Arial, Helvetica, sans-serif;
+﻿ul {
+    list-style-type: none;
+    margin-left: -16px;
+    margin-bottom: 0px;
+    margin-right: -14px;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #e7e7e7;
+    background-color: #f3f3f3;
 }
 
-h2{
+#about {
+    margin-left: 320px;
+}
+
+#contacts {
+    margin-right: 357.5px;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: #666;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #ddd;
+}
+
+li a.active {
+    color: white;
+    background-color: #69CFBF;
+}
+
+li a.active1 {
+    color: white;
+    background-color: #69CFBF;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2 {
     font-size: 20px;
 }
 
-#dream{
-    color:#000000;
-    font-size:10px;
+#dream {
+    color: #000000;
+    font-size: 10px;
 }
-.jumbotron1{
-    height:400px;
+
+.jumbotron1 {
+    height: 400px;
     background-image: url('windows 1.jpg');
-    background-size:cover;
+    background-size: cover;
     background-position: center center;
+    border: solid;
+    border-width: thin;
+    border-color: rgba(100, 91, 91, 0.79);
 }
 
-.thumbnail{
+h1 {
+    font-size: 25px;
+}
 
+.thumbnail13 {
     background-image: url('http://www.windowsontuscany.com/wp-content/uploads/2013/09/Volterra.jpg');
-    height:400px;
-    background-size:cover;
+    height: 400px;
+    background-size: cover;
     background-position: center center;
-    margin-bottom:0;   
+    margin-bottom: 0;
+    border: solid;
+    border-width: thin;
+    border-color: rgba(100, 91, 91, 0.79);
 }
 
-.thumbnail1{
-    height:200px;
-    padding-left:50px;
-    padding-top:40px;
+.thumbnail1 {
+    height: 200px;
+    padding-left: 50px;
+    padding-top: 40px;
+    border: solid;
+    border-width: thin;
+    border-color: rgba(100, 91, 91, 0.79);
 }
 
-.thumbnail1 p{
-     color:#69CFBF;
+.thumbnail1 p {
+    color: #69CFBF;
 }
 
 .thumbnail2 {
@@ -41,8 +99,10 @@ h2{
     background-image: url('wine 1.jpg');
     background-size: cover;
     background-position: center center;
-    padding-left:50px; 
-    
+    padding-left: 50px;
+    border: solid;
+    border-width: thin;
+    border-color: rgba(100, 91, 91, 0.79);
 }
 
 .thumbnail3 {
@@ -50,132 +110,206 @@ h2{
     background-image: url('villa.jpg');
     background-size: cover;
     background-position: center center;
-    padding-left:50px;  
+    padding-left: 50px;
+    border: solid;
+    border-width: thin;
+    border-color: rgba(100, 91, 91, 0.79);
 }
 
- .thumbnail4 {
-    height:200px;
+.thumbnail4 {
+    height: 200px;
     background-image: url('wine.jpg');
-    background-size:cover;
+    background-size: cover;
     background-position: center center;
-    padding-left:50px;   
+    padding-left: 50px;
+    border: solid;
+    border-width: thin;
+    border-color: rgba(100, 91, 91, 0.79);
 }
 
- .thumbnail5 {
-    height:200px;
+.thumbnail5 {
+    height: 200px;
     background-image: url('tuscany villa 4.jpg');
-    background-size:cover;
+    background-size: cover;
     background-position: center center;
-    padding-left:50px;
+    padding-left: 50px;
+    border: solid;
+    border-width: thin;
+    border-color: rgba(100, 91, 91, 0.79);
 }
 
 .thumbnail6 {
-    height:200px;
-    padding-left:30px;
-    padding-right:30px;
-    text-align:center;
+    height: 200px;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: center;
+    border: solid;
+    border-width: thin;
+    border-color: rgba(100, 91, 91, 0.79);
 }
 
 .thumbnail7 {
-    height:200px;
+    height: 200px;
     background-image: url('window 2.jpg');
-    background-size:cover;
+    background-size: cover;
     background-position: center center;
-    padding-left:50px;
+    padding-left: 50px;
+    border: solid;
+    border-width: thin;
+    border-color: rgba(100, 91, 91, 0.79);
 }
 
 .thumbnail8 {
-    height:200px;  
-    padding-left:30px;
-    padding-right:30px;
-    text-align:center;
-    
+    height: 200px;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: center;
+    border: solid;
+    border-width: thin;
+    border-color: rgba(100, 91, 91, 0.79);
 }
 
 .thumbnail9 {
-    height:200px;
-  padding-left:30px;
-    padding-right:30px;
-    text-align:center;
+    height: 200px;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: center;
+    border: solid;
+    border-width: thin;
+    border-color: rgba(100, 91, 91, 0.79);
 }
 
 .thumbnail10 {
-    height:200px;
+    height: 200px;
     background-image: url('villa 3.jpg');
-    background-size:cover;
+    background-size: cover;
     background-position: center center;
-    padding-left:50px;
+    padding-left: 50px;
+    border: solid;
+    border-width: thin;
+    border-color: rgba(100, 91, 91, 0.79);
 }
 
 .thumbnail11 {
-    height:200px;
-    background-color:#69CFBF;
-    background-size:cover;
+    height: 200px;
+    background-color: #69CFBF;
+    background-size: cover;
     background-position: center center;
-    text-align:center;
-     padding-left:30px;
-    padding-right:30px;
-    text-align:center;
-    
-   
-
+    text-align: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: center;
+    border: solid;
+    border-width: thin;
+    border-color: rgba(100, 91, 91, 0.79);
 }
 
- .thumbnail12 {
-    height:200px;
-    padding-left:50px;  
-    border-top:solid;
+.thumbnail12 {
+    height: 200px;
+    padding-left: 30px;
+    border-top: solid;
+    border: solid;
+    border-width: thin;
+    border-color: rgba(100, 91, 91, 0.79);
+    text-align: center;
+    font-size: 12px;
+    font-weight: bold;
+    padding-top: 30px;
 }
 
- .border{
-    margin-top:10px;
-    padding-bottom:5px;  
-     border:solid;
-     border-color:rgba(100, 91, 91, 0.79);
+img {
+    width: 200px;
+    margin-top: 10px;
+}
 
-     
- }
- .box{
-     background-color:rgba(100, 91, 91, 0.79); 
-     color:#ffffff;
-     text-align:center;
-    margin-right:25px;
+.border {
+    margin-top: 10px;
+    padding-bottom: 5px;
+    border: solid;
+    border-width: 2px;
+    border-color: rgba(100, 91, 91, 0.79);
+}
+
+.box {
+    background-color: rgba(100, 91, 91, 0.79);
+    color: #ffffff;
+    text-align: center;
+    margin-right: 25px;
     margin-top: 60px;
-    padding:1px;
- }
- button{
-     color:#69CFBF;
-     border-color:#69CFBF;
-     background-color:rgba(255, 255, 255, 0.00);
-     border-style:solid;
- }
+    padding: 1px;
+}
+
+.box1 {
+    background-color: rgba(100, 91, 91, 0.79);
+    color: #ffffff;
+    text-align: center;
+    margin-right: 25px;
+    margin-top: 135px;
+    padding: 1px;
+}
+
+.box2 {
+    background-color: #ededed;
+    color: #000000;
+    text-align: center;
+    margin-right: 25px;
+    margin-top: 135px;
+    padding: 1px;
+}
+
+button {
+    color: #69CFBF;
+    border-color: #69CFBF;
+    background-color: rgba(255, 255, 255, 0.00);
+    border-style: solid;
+}
+
 #button2 {
-    color: #444444;
+    color: rgba(100, 91, 91, 0.79);
     border-color: rgba(100, 91, 91, 0.79);
     background-color: rgba(255, 255, 255, 0.00);
     border-style: solid;
+    border-width: 2px;
     padding: 3px;
 }
- #clients{
-     font-size:12px;
-     color:#ffffff;
-     margin:0px;
- }
- #number{
-     font-size:30px;
+
+#clients {
+    font-size: 12px;
     color: #ffffff;
-    font-weight:bold;
-    margin:0px;
- }
- #review{
-      font-size:12px;
-      font-weight:bold;
+    margin: 0px;
+}
+
+#number {
+    font-size: 30px;
     color: #ffffff;
-   margin:0px;
- }
- #rating{
-       font-size:30px;
+    font-weight: bold;
+    margin: 0px;
+}
+
+#review {
+    font-size: 12px;
+    font-weight: bold;
     color: #ffffff;
-    font-weight:bold;
-   margin:0px;
- }
+    margin: 0px;
+}
+
+#rating {
+    font-size: 30px;
+    color: #ffffff;
+    font-weight: bold;
+    margin: 0px;
+}
+
+footer{
+     list-style-type: none;
+    margin-left: -16px;
+    margin-bottom: 20px;
+    margin-right: -14px;
+   
+    padding-left:20px;
+    padding-top:20px;
+    padding-bottom:20px;
+    overflow: hidden;
+    border: 1px solid #e7e7e7;
+    background-color: #f3f3f3;
+}
