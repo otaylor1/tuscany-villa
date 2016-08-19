@@ -64,6 +64,7 @@ h2 {
     border: solid;
     border-width: thin;
     border-color: rgba(100, 91, 91, 0.79);
+    
 }
 
 h1 {
@@ -71,7 +72,7 @@ h1 {
 }
 
 .thumbnail13 {
-    background-image: url('http://www.windowsontuscany.com/wp-content/uploads/2013/09/Volterra.jpg');
+    background-image: url('https://web.archive.org/web/20160405015950im_/http://www.windowsontuscany.com/wp-content/themes/tuscany/img/_map_overlay.png');
     height: 400px;
     background-size: cover;
     background-position: center center;
